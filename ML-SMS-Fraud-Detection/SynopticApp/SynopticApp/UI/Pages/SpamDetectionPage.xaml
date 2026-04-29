@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- This is the code for the front end UI of the application --> 
+    
+    
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                 xmlns:v1="clr-namespace:SynopticApp.UI.Pages"
+                 x:Class="SynopticApp.UI.Pages.SpamDetectionPage"
+                 xmlns:vm="clr-namespace:SynopticApp.UI.VM"
+                 xmlns:toolkit="toolkit"
+                 BackgroundColor="#404040"
+                 Shell.NavBarHasShadow="True"
+                 Title="">
+    <ContentPage.BindingContext>
+        <vm:PredictionViewModel/>
+    </ContentPage.BindingContext>
+
+    <!-- Page layout, grid setup --> 
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="115"/>
+            <RowDefinition Height="130"/>
+            <RowDefinition Height="110"/>
+            <RowDefinition Height="200"/>
+        </Grid.RowDefinitions>
+
+        <StackLayout Grid.Row="1"
+                     Grid.ColumnSpan="2"
+                     HorizontalOptions="Center">
+            <Label Text="SMS Fraud Detector"
+                    SemanticProperties.HeadingLevel="Level1"
+                    FontSize="32"
+                    HorizontalOptions="CenterAndExpand"
+                    Margin="0,0,0,12"/>
+            <Rectangle BackgroundColor="#84A9FF"
+                       Margin="0,0,0,0"
+                       HeightRequest="3"
+                       MinimumWidthRequest="350"
+                       MaximumWidthRequest="350" />
+            <Label Text="Quick n Easy SMS fraud detection!"
+                    SemanticProperties.HeadingLevel="Level2"
+                    FontSize="18"
+                    Margin="0,14,0,0"
+                    HorizontalOptions="Center" />
+        </StackLayout>
+        
+        <!-- Input Editor for the user to submit messages -->
+        <ScrollView Grid.Row="2"
+                    Grid.ColumnSpan="2">
+            <VerticalStackLayout
+                Spacing="15"
+                Padding="30,0"
+                VerticalOptions="Center"
+                HorizontalOptions="Center">
+                <Editor x:Name="UserInput"
+                        Placeholder="Enter your message here. . ."
+                        Text="{Binding ResultText}"
+                        TextColor="White"
+                        HeightRequest="130"
+                        BackgroundColor="#313131"
+                        WidthRequest="350"
+                        Grid.ColumnSpan="2"
+                        FontSize="17" />
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <!-- Scan and Clear Buttons, binding from PredictionViewModel -->
+        <Frame Grid.Column="0"
+               Grid.Row="3"
+               Margin="0,0,35,0"
+               HorizontalOptions="End"
+               BorderColor="Transparent"
+               BackgroundColor="Transparent"
+               HasShadow="true"
+               Padding="0"
+               HeightRequest="75">
+            <Button Command="{Binding ScanCommand}"
+                    WidthRequest="140"
+                    Text="Scan Message"
+                    HeightRequest="75"
+                    FontSize="17"
+                    BackgroundColor="#84A9FF"
+                    TextColor="Black"/>
+        </Frame>
+        <Frame Grid.Column="1"
+               Grid.Row="3"
+               Margin="35,0,0,0"
+               HorizontalOptions="Start"
+               HasShadow="true"
+               Padding="0"
+               HeightRequest="75"
+               BorderColor="Transparent"
+               BackgroundColor="Transparent">
+
+            <Button Command="{Binding ClearCommand}"
+                    WidthRequest="140"
+                    Text="Clear Result"
+                    FontSize="17"
+                    HeightRequest="75"
+                    BackgroundColor="#84A9FF"
+                    TextColor="Black"/>
+        </Frame>
+
+        <!-- Displays the result prediction & explanation -->
+        <VerticalStackLayout Grid.Row="4" Grid.ColumnSpan="4">
+            <Frame WidthRequest="350"
+                    Margin="20,0,20,0"
+                   BackgroundColor="#313131"
+                   HeightRequest="180">
+                <StackLayout>
+
+                <Label Text="{Binding PredictionResult, StringFormat='Scan Result: {0}'}"
+                       FontSize="17.5"
+                       HorizontalTextAlignment="Center"
+                       TextColor="White"/>
+                
+            </StackLayout>
+        </Frame>
+        </VerticalStackLayout>
+
+        <!-- IsBusy loading indicator to inform the user it is processing and still busy -->
+        <ActivityIndicator IsRunning="{Binding IsBusy}"
+                           IsVisible="{Binding IsBusy}"
+                           HeightRequest="40"
+                           WidthRequest="40"
+                           Grid.Row="4"
+                           Grid.ColumnSpan="4"
+                           VerticalOptions="CenterAndExpand"
+                           HorizontalOptions="CenterAndExpand" />
+    </Grid>
+</ContentPage>
