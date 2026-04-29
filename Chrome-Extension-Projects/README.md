@@ -41,11 +41,9 @@ Elementra is my most technically ambitious extension - born directly from my QA 
 
 ## Screenshots
 
-```md
 ![Jira Tracker](Images/JiraTracker-image.png)
 ![Simply Focus](Images/SimplyFocus-image.png)
 ![Elementra](Images/Elementa-image.png)
-```
 
 ---
 
