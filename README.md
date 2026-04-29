@@ -33,6 +33,19 @@ A collection of browser extensions I've built to solve personal productivity and
 
 ---
 
+### 🌐 Network Design & Implementation
+Full network design and implementation for a 50-employee organisation across two floors - built and verified in Cisco Packet Tracer. Covers CIDR IP addressing, SSH configuration, DHCP, RIP routing, redundancy, and full connectivity testing.
+ 
+`Cisco Packet Tracer` `SSH` `DHCP` `RIP` `CIDR` `Cisco IOS`
+ 
+---
+ 
+### 🔐 Applied Cryptography
+Step-by-step implementation of core cryptographic concepts in Python - including the Euclidean and Extended Euclidean algorithms, Fermat's Little Theorem, repeated squaring, and a full from-scratch walkthrough of one round of DES encryption.
+ 
+`Python` `Jupyter Notebook` `SymPy` `Number Theory` `DES`
+ 
+---
 
 ## 🧰 Tools & languages
 
