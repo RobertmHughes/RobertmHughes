@@ -33,12 +33,6 @@ A collection of browser extensions I've built to solve personal productivity and
 
 ---
 
-### 🚩 CTF Write-ups
-Documented walkthroughs of Capture the Flag challenges - covering my thought process, tools used, and lessons learned. Great for keeping offensive security skills sharp.
-
-`BurpSuite` `Wireshark` `recon` `ethical hacking`
-
----
 
 ## 🧰 Tools & languages
 
