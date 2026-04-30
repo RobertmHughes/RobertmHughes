@@ -1,4 +1,4 @@
-# Hi, I'm Robert 👋
+# Hi, I'm Rob 👋
 
 **Cybersecurity graduate · Junior QA Engineer · aspiring security professional**
 
