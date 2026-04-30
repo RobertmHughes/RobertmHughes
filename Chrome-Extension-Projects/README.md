@@ -13,7 +13,7 @@ Built out of frustration with constantly switching tabs during development. Jira
 
 **Tech:** `JavaScript` `Chrome APIs` `Manifest V3` `Jira REST API`
 
-[![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Available-brightgreen?logo=google-chrome)](https://chromewebstore.google.com/detail/jira-tracker-fast-issue-t/onmliibpmaeilgjhbfbnhfjdhfpmamne?authuser=0&hl=en)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Available-brightgreen?logo=google-chrome)](https://chromewebstore.google.com/detail/onmliibpmaeilgjhbfbnhfjdhfpmamne?utm_source=item-share-cb)
 
 ---
 
@@ -24,7 +24,7 @@ A productivity extension built around time management principles - helping you s
 
 **Tech:** `JavaScript` `HTML` `CSS` `Chrome Storage API`
 
-[![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Available-brightgreen?logo=google-chrome)](https://chromewebstore.google.com/detail/simply-focus-smart-time-t/niobhkibappdoakflmihhobagcdfimhi?authuser=0&hl=en)
+[![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Available-brightgreen?logo=google-chrome)](https://chromewebstore.google.com/detail/niobhkibappdoakflmihhobagcdfimhi?utm_source=item-share-cb)
 
 ---
 
@@ -35,7 +35,7 @@ Elementra is my most technically ambitious extension - born directly from my QA 
 
 **Tech:** `JavaScript` `Chrome DevTools Protocol` `DOM APIs` `Manifest V3`
 
-> 🚧 **Status:** Under review - Chrome Web Store listing coming soon.
+[![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Available-brightgreen?logo=google-chrome)](https://chromewebstore.google.com/detail/jffpnmlfkjpjpingimdbhekccjdnefea?utm_source=item-share-cb)
 
 ---
 
