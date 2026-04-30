@@ -31,7 +31,7 @@ A productivity extension built around time management principles - helping you s
 ### 🔬 Elementra - Element & Test Automation *(Under Review)*
 > Browser-based element inspection and test automation tooling.
 
-Elementra is my most technically ambitious extension - born directly from my QA work. It assists with element selection, inspection, and building automation test cases from within the browser, with its own code generation. Currently under review for the Chrome Web Store.
+Elementra is my most technically ambitious extension - born directly from my QA work. It assists with element selection, inspection, and building automation test cases from within the browser, with its own code generation.
 
 **Tech:** `JavaScript` `Chrome DevTools Protocol` `DOM APIs` `Manifest V3`
 
