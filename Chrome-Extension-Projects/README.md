@@ -6,6 +6,17 @@ A collection of Chrome extensions I've built to solve real productivity and deve
 
 ## Extensions
 
+### 🚀 Dispatch API
+> Capture, edit, and replay API requests directly in your browser.
+
+Dispatch is a professional API testing and network inspection tool held entirely in the Chrome side panel - no separate app to install, no account required, no data ever leaving a user's device.
+
+**Tech:** `JavaScript` `Chrome APIs` `Manifest V3` `XHR` `Postman`
+
+[![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Available-brightgreen?logo=google-chrome)](https://chromewebstore.google.com/detail/kdbihiccindgaamckdoemnmpbkgolklb?utm_source=item-share-cb)
+
+---
+
 ### ⚡ Jira Tracker - Fast Issue Tracking for Developers
 > Track and manage Jira issues without leaving your browser.
 
@@ -41,6 +52,7 @@ Elementra is my most technically ambitious extension - born directly from my QA 
 
 ## Screenshots
 
+![Jira Tracker](Images/Dispatch-image.png)
 ![Jira Tracker](Images/JiraTracker-image.png)
 ![Simply Focus](Images/SimplyFocus-image.png)
 ![Elementra](Images/Elementa-image.png)
