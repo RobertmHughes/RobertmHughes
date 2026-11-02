@@ -83,7 +83,8 @@ Final-year dissertation: a machine learning model that detects SMS-based fraud (
 - **Models compared:** Naïve Bayes Classifier & Fast Forest OVA
 
 `Python` `scikit-learn` `NLP` `Classification`
-
+<br>
+[Go to Repo](./ML-SMS-Fraud-Detection)
 </details>
 
 <details>
@@ -98,7 +99,8 @@ Full network design for a 50-employee organisation across two floors, built and 
 - Redundancy and full connectivity testing
 
 `Cisco Packet Tracer` `SSH` `DHCP` `RIP` `CIDR` `Cisco IOS`
-
+<br>
+[Go to Repo](./Network-Design-&-Implementation)
 </details>
 
 <details>
@@ -109,7 +111,8 @@ Full network design for a 50-employee organisation across two floors, built and 
 Core cryptographic concepts implemented from scratch in Python: Euclidean and Extended Euclidean algorithms, Fermat's Little Theorem, repeated squaring, and a full walkthrough of one round of DES.
 
 `Python` `Jupyter Notebook` `SymPy` `Number Theory` `DES`
-
+<br>
+[Go to Repo](./Applied-Cryptography)
 </details>
 
 <details>
@@ -120,7 +123,8 @@ Core cryptographic concepts implemented from scratch in Python: Euclidean and Ex
 Browser extensions I built to solve my own time-management problems, a practical way to keep developing my programming skills outside of work.
 
 `JavaScript` `HTML` `Chrome APIs` `Manifest V3`
-
+<br>
+[Go to Repo](./Chrome-Extension-Projects)
 </details>
 
 ---
