@@ -112,7 +112,7 @@ Core cryptographic concepts implemented from scratch in Python: Euclidean and Ex
 
 `Python` `Jupyter Notebook` `SymPy` `Number Theory` `DES`
 <br>
-[Go to Repo](./Applied-Cryptography)
+[Go to Repo](./Applied%20Cryptography)
 </details>
 
 <details>
