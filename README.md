@@ -100,7 +100,7 @@ Full network design for a 50-employee organisation across two floors, built and 
 
 `Cisco Packet Tracer` `SSH` `DHCP` `RIP` `CIDR` `Cisco IOS`
 <br>
-[Go to Repo](./Network-Design-&-Implementation)
+[Go to Repo](./Network%20Design%20%26%20Implementation)
 </details>
 
 <details>
