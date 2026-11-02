@@ -1,4 +1,5 @@
 # 🌐 Network Design & Implementation
+<img width="1907" height="523" alt="image" src="https://github.com/user-attachments/assets/05258652-2911-4e06-953f-21580908ee5d" />
 
 > Academic project - BSc Cyber Security, Manchester Metropolitan University  
 > **Tool:** Cisco Packet Tracer
